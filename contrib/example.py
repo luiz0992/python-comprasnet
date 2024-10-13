@@ -1,6 +1,7 @@
-from comprasnet import SearchAuctions, ComprasNetApi
+from comprasnet.pages.search_auctions import SearchAuctions
+# from comprasnet.pages ComprasNetApi
 import logging.config
-import sys
+# import sys
 from datetime import date
 
 logging.config.dictConfig({
